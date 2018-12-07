@@ -6,7 +6,7 @@
 			<mu1>0.05</mu1>
 			<mu2>0.05</mu2>
 			<sensor type="camera" name="camera1">
-				<update_rate>30.0</update_rate>
+				<update_rate>60.0</update_rate>
 				<camera name="head">
 					<horizontal_fov>1.3962634</horizontal_fov>
 					<image>
