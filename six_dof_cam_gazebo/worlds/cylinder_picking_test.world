@@ -20,18 +20,18 @@
         <inertial>
           <mass>0.1</mass>
           <inertia>
-            <ixx>1</ixx>
+            <ixx>1e-4</ixx>
             <ixy>0</ixy>
             <ixz>0</ixz>
-            <iyy>1</iyy>
+            <iyy>1e-4</iyy>
             <iyz>0</iyz>
-            <izz>1</izz>
+            <izz>1e-4</izz>
           </inertia>
         </inertial>
         <collision name='collision'>
           <geometry>
             <cylinder>
-              <radius>0.05</radius>
+              <radius>0.03</radius>
               <length>0.15</length>
             </cylinder>
           </geometry>
@@ -49,7 +49,7 @@
         <visual name='visual'>
           <geometry>
             <cylinder>
-              <radius>0.05</radius>
+              <radius>0.03</radius>
               <length>0.15</length>
             </cylinder>
           </geometry>
@@ -77,18 +77,18 @@
         <inertial>
           <mass>0.1</mass>
           <inertia>
-            <ixx>1</ixx>
+            <ixx>1e-4</ixx>
             <ixy>0</ixy>
             <ixz>0</ixz>
-            <iyy>1</iyy>
+            <iyy>1e-4</iyy>
             <iyz>0</iyz>
-            <izz>1</izz>
+            <izz>1e-4</izz>
           </inertia>
         </inertial>
         <collision name='collision'>
           <geometry>
             <cylinder>
-              <radius>0.05</radius>
+              <radius>0.03</radius>
               <length>0.01</length>
             </cylinder>
           </geometry>
@@ -106,7 +106,7 @@
         <visual name='visual'>
           <geometry>
             <cylinder>
-              <radius>0.05</radius>
+              <radius>0.03</radius>
               <length>0.01</length>
             </cylinder>
           </geometry>
